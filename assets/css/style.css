@@ -1,0 +1,74 @@
+* {
+margin: 0px;
+padding: 0px;
+
+}
+
+Header p {
+    float: left;
+    height:40px;
+    width: 50px;
+    font: 1em  sans-serif;
+    color: white;
+    background-color: blue;
+    overflow: auto;
+
+}
+
+Header h1 { 
+    float: left;
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14;
+    padding: 0%;
+    color: white;
+}
+
+
+Header ul li { 
+    float: right;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14;
+    padding: 0%;
+    color: white;
+
+}
+
+section h2 {
+    float: left;
+    height: 49px;
+    width: 1400px;
+    
+
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    text-align:left;position: relative
+
+    
+
+
+}
+
+footer {
+    background-color: gray
+    
+
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    height: 50px;
+
+
+}
