@@ -1,74 +1,64 @@
 * {
-margin: 0px;
-padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 
 }
 
-Header p {
-    float: left;
-    height:40px;
-    width: 50px;
-    font: 1em  sans-serif;
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: gray;
+
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     color: white;
-    background-color: blue;
-    overflow: auto;
-
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-underline-position: none;
 }
 
-Header h1 { 
-    float: left;
-    width: 400px;
-    height: 40px;
-    background-color: black;
-    line-height: 40px;
-    text-align: center;
-    font-size: 14;
-    padding: 0%;
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style: none;
+    position: right;
+}
+
+.nav-links a {
     color: white;
-}
-
-
-Header ul li { 
-    float: right;
-    width: 200px;
-    height: 40px;
-    background-color: black;
-    line-height: 40px;
-    text-align: center;
-    font-size: 14;
-    padding: 0%;
-    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    float:right;
 
 }
 
-section h2 {
-    float: left;
-    height: 49px;
-    width: 1400px;
-    
+main { 
+    height: 960px;
+    width: 100%;
+    background-color: whitesmoke;
+
 
 }
 
-img {
-    float: left;
-    margin-right: 20px;
-    text-align:left;position: relative
-
-    
-
+main h2 {
+    text-underline-position: none;
 
 }
 
 footer {
-    background-color: gray
-    
-
-}
-
-footer p {
-    color: white;
-    text-align: center;
     height: 50px;
-
-
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    color: white;
 }
